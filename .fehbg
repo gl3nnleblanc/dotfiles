@@ -1,0 +1,2 @@
+#!/bin/sh
+feh  --image-bg black --bg-center '/home/glenn/Wallpapers/Single/greenLeaves.jpg' '/home/glenn/Wallpapers/Single/greenLeaves2.jpg' 
