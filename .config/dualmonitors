@@ -1,0 +1,2 @@
+xrandr --output DVI-D-0  --auto --right-of DVI-I-1
+
