@@ -19,6 +19,10 @@ set number
 
 " Show relative line numbers
 set relativenumber
+
+" Remap Ctrl+C to copy to system clipboard
+vnoremap <C-c> "+y
+
 " Delete trailing white space on save
 fun! CleanExtraSpaces()
     let save_cursor = getpos(".")

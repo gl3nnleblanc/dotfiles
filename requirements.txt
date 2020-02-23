@@ -1,4 +1,5 @@
-i3-gaps
-xcwd
 dmenu
+i3-gaps
 lemonbar
+xcwd
+xclip
