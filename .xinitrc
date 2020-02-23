@@ -1,12 +1,8 @@
-# Set the background
 exec sh ~/.fehbg &
-
-# Disable mouse acceleration
-xset m 0 0 &
-
-# Setup fonts
-xset +fp /usr/share/fonts/local
-xset fp rehash
-
-# Start wm
+xrdb ~/.Xresources &
+exec sh ~/.config/bar.sh &
+xset -b &
+exec sh ~/.config/startCompton.sh &
+exec ~/.config/xrandr.sh &
+xmodmap ~/.Xmodmap &
 exec i3
