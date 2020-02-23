@@ -1,0 +1,4 @@
+i3-gaps
+xcwd
+dmenu
+lemonbar
