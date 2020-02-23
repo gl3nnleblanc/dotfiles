@@ -1,10 +1,3 @@
-#URxvt*background: [100]#3b3b4b
-#URxvt*background: #3b3b3b
-#URxvt*foreground: #cce8d4
-
-URxvt*background: #1b1b1b
-URxvt*foreground: #A0A0A0
-
 URxvt*transparent: false
 URxvt*.shading: 20
 URxvt*.depth: 32
@@ -20,65 +13,8 @@ URxvt*keysym.Shift-Control-V:perl:clipboard:paste
 URxvt*iso14755: false
 URxvt*perl-ext-common:default,clipboard
 
-URxvt*font:xft:terminus:pixelsize=12
-URxvt*boldFont:xft:terminus:pixelsize=13
+URxvt*font:-xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso10646-1
+URxvt*boldFont:-xos4-terminus-medium-r-normal--12-120-72-72-c-60-iso10646-1
 
 URxvt*letterSpace: 0
 URxvt*internalBorder: 10
-URxvt*color0: #33313c
-URxvt*color1: #354169
-URxvt*color2: #4c596c
-URxvt*color3: #5d6383
-URxvt*color4: #6f838e
-URxvt*color5: #83989b
-URxvt*color6: #7b7277
-URxvt*color7: #a3a0a7
-URxvt*color8: #6fa6ab
-URxvt*color9: #a8bac4
-URxvt*color10: #606e5f
-URxvt*color11: #808452
-URxvt*color12: #b7a462
-URxvt*color13: #5a5349
-URxvt*color14: #8bb5b4
-URxvt*color15: #d2c173
-
-rofi.terminal:	urxvt
-rofi.lines:	10
-rofi.eh:	2
-rofi.width:	100
-rofi.padding:	800
-rofi.opacity:	95
-rofi.bw:	0
-rofi.bc:	#032c36
-
-! Black
-*color0:       #5e5e5e
-*color8:       #5e5e5e
-
-! Red
-*color1:       #db5151
-*color9:       #db5151
-
-! Green
-*color2:       #7a9272
-*color10:      #7a9272
-
-! Yellow
-*color3:       #eaa85e
-*color11:      #eaa85e
-
-! Blue
-*color4:       #4d4791
-*color12:      #4d4791
-
-! Magenta
-*color5:       #a53946
-*color13:      #a53946
-
-! Cyan
-*color6:       #73859d
-*color14:      #73859d
-
-! White
-*color7:       #f3eed8
-*color15: #f3eed8
