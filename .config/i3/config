@@ -154,8 +154,9 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-gaps inner 15
-gaps bottom 23
+gaps outer 0
+gaps inner 0
+gaps bottom 100
 
 hide_edge_borders both
 for_window[class="^.*"] border pixel 3
