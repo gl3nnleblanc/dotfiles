@@ -22,7 +22,7 @@ Backup of personal system config.
   <li><b>Install window manager toppings:</b>
   <li>Install xf86-video-noveau, xorg
   <li>Add <code>exec i3</code> to ~/.xinitrc
-  <li><code>$ cp /etc/i3/config ~/.config/i3/config<code> (Touch directory)
+  <li><code>$ cp /etc/i3/config ~/.config/i3/config</code> (Touch directory)
   <li>Install kitty and edit i3-config to launch it
   <li>Get i3-gaps, lemonbar, xcwd with yaourt
   <li>Install ttf-fira-code with yaourt
