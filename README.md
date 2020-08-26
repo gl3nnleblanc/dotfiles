@@ -12,14 +12,12 @@ Backup of personal system config.
         <li><code># pacman -S sudo</code>
         <li>Uncomment <code># %wheel ALL=...</code> from /etc/sudoers
         <li><code># login</code>
-    
         <li><b>Install yaourt:</b>
         <li><code>$ sudo pacman -S base-devel git wget yajl</code>
         <li><code>$ git clone https://aur.archlinux.org/package-query.git</code>
         <li><code>$ git clone https://aur.archlinux.org/yaourt.git</code>
         <li>For each, do <code>cd $NAME && makepkg -si</code>
         <li>For each, do <code>rm -rf $NAME</code>
-
         <li><b>Install window manager toppings:</b>
         <li>Install xf86-video-noveau, xorg
         <li>Add <code>exec i3</code> to ~/.xinitrc
@@ -31,16 +29,13 @@ Backup of personal system config.
         <li>Use ctrl+shit+f2 to set font in kitty config:
         <li><code>font_family firacode</code>
         <li>Install feh
-
         <li><b>Install base16-colors for vim:</b>
         <li><code>$ cd ~/.vim/colors</code>
         <li><code>$ git clone git://github.com/chriskempson/base16-vim.git base16</code>
         <li><code>$ cp base16/colors/*.vim .</code>
-    
         <li><b>Setup sound</b>
         <li>Install alsa, amixer, pulseaudio
         <li>Install pavucontrol and enable audiobox (desktop)
         <li>Follow <a href="https://medium.com/@gamunu/enable-high-quality-audio-on-linux-6f16f3fe7e1f">these</a> steps
-        
     </list>
 </p>
