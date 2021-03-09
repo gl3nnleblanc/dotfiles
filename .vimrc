@@ -1,4 +1,5 @@
 " Colorscheme
+
 let base16colorspace=256
 syntax on
 colorscheme base16-google-dark
@@ -7,7 +8,7 @@ let python_highlight_all = 1
 " Spaces; not tabs
 set expandtab
 set shiftwidth=2
-set tabstop=2
+set tabstop=4
 " Searching
 map <space> /
 map <c-space> ?
@@ -35,3 +36,7 @@ endfun
 if has("autocmd")
     autocmd BufWritePre *.txt,*.py,*.js,*.sh :call CleanExtraSpaces()
 endif
+
+call plug#begin('~/.vim/plugged')
+  Plug 'JuliaEditorSupport/julia-vim'
+call plug#end()

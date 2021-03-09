@@ -34,6 +34,10 @@ Backup of personal system config.
   <li><code>$ cd ~/.vim/colors</code>
   <li><code>$ git clone git://github.com/chriskempson/base16-vim.git base16</code>
   <li><code>$ cp base16/colors/\*.vim .</code>
+  <li><b>Install Plug and Julia support for vim:</b>
+  <li>See <a href="https://github.com/junegunn/vim-plug">here for plug</a>
+  <li> Add <code>Plug 'JuliaEditorSupport/julia-vim'</code> to ~/.vimrc Plug section
+  <li> Run <code>:PlugInstall</code> in vim
   <li><b>Setup sound</b>
   <li>Install alsa, amixer, pulseaudio
   <li>Install pavucontrol and enable audiobox (desktop)
