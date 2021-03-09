@@ -1,4 +1,4 @@
-<h1> September 2020 Dotfiles </h1>
+<h1> Linux config (March 2021) </h1>
 
 Backup of personal system config.
 
