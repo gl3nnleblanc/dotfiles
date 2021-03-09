@@ -1,4 +1,5 @@
 dmenu
+fortune-mod
 i3-gaps
 lemonbar
 xcwd
